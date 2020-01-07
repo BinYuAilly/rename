@@ -1,0 +1,23 @@
+mkdir pro_git    // 新建文件
+cd pro_git   // 转到pro_git文件
+
+git init        // 初始化本地仓库
+git status    //查看当前仓库状态
+git add       // 添加文件到缓存区
+git commit // 提交至版本库 git commit-m '注释内容'
+查看版本
+        git log 
+		git log --pretty=oneline
+
+回退操作
+		git reset --hard 版本号
+
+想返回最新版本
+        git reflog
+        
+git branch // 查看分支
+git branch 分支名   //创建分支
+git checkout 分支名  //切换分支
+git checkout -b   // 创建并切换分支
+git branch -d // 删除分支
+git merge 分支名  // 合并分支到 master 
