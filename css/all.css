@@ -1,0 +1,260 @@
+
+body{
+    background: #eee;
+    min-width: 500px;
+}
+.text-justify{
+    /* 文字两端对齐 */
+    text-align-last: justify;
+    text-align: justify;
+    text-justify: distribute-all-lines;/* 这行必须加兼容ie浏览器 */
+    /* border: 1px solid red; */
+}
+ul>li{
+    list-style: none;
+}
+.text-center{
+    text-align: center;
+}
+.margin-center{
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.flex.unset{
+    justify-content: unset;
+}
+.flex.center{
+    align-items: center;
+}
+.flex.end{
+    align-items: flex-end;
+}
+.flex.start{
+    align-items: flex-start;
+}
+.flex.wrap{
+    flex-wrap: wrap;
+}
+
+.flex.space-between{
+    justify-content: space-between;
+}
+.flex.space-around{
+    justify-content: space-around;
+}
+.position-fixed{
+    position: fixed;
+}
+.position-abs{
+    position: absolute;
+}
+.position-rel{
+    position: relative;
+}
+.position-fixed.auto ,
+.position-abs.auto{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.margin-top10{
+    margin-top: 10px;
+}
+.margin-top20{
+    margin-top: 20px;
+}
+.margin-top30{
+    margin-top: 30px;
+}
+.margin-top40{
+    margin-top: 40px;
+}
+.margin-top50{
+    margin-top: 50px;
+}
+.margin-left10{
+    margin-left: 10px;
+}
+.margin-left20{
+    margin-left: 20px;
+}
+.margin-left30{
+    margin-left: 30px;
+}
+.margin-left40{
+    margin-left: 40px;
+}
+
+.margin-left50{
+    margin-left: 50px;
+}
+.margin-right10{
+    margin-right: 10px;
+}
+.margin-right20{
+    margin-right: 20px;
+}
+.margin-right30{
+    margin-right: 30px;
+}
+.margin-right40{
+    margin-right: 40px;
+}
+.margin-right50{
+    margin-right: 50px;
+}
+.width10{
+    width: 10%;
+}
+.width20{
+    width: 20%;
+}
+.width30{
+    width: 30%;
+}
+.width40{
+    width: 40%;
+}
+.width50{
+    width: 50%;
+}
+.width60{
+    width: 60%;
+}
+.width70{
+    width: 70%;
+}
+.width80{
+    width: 80%;
+}
+.width90{
+    width: 90%;
+}
+.width100{
+    width: 100%;
+}
+.font-weight100{
+    font-weight: 100;
+}
+.font-weight200{
+    font-weight: 200;
+}
+.font-weight300{
+    font-weight: 300;
+}
+.font-weight400{
+    font-weight: 400;
+}
+.font-weight500{
+    font-weight: 500;
+}
+.font-weight600{
+    font-weight: 600;
+}
+.font-weight700{
+    font-weight: 700;
+}
+.font-size12{
+    font-size: 12px;
+}
+.font-size13{
+    font-size: 13px;
+}
+.font-size14{
+    font-size: 14px;
+}
+.font-size15{
+    font-size: 15px;
+}
+.font-size16{
+    font-size: 16px;
+}
+.font-size17{
+    font-size: 17px;
+}
+.font-size18{
+    font-size: 18px;
+}
+.font-size19{
+    font-size: 19px;
+}
+.font-size20{
+    font-size: 20px;
+}
+.font-size21{
+    font-size: 21px;
+}
+.font-size22{
+    font-size: 22px;
+}
+.font-size23{
+    font-size: 23px;
+}
+.font-size24{
+    font-size: 24px;
+}
+.font-size25{
+    font-size: 25px;
+}
+.font-size26{
+    font-size: 26px;
+}
+.font-size27{
+    font-size: 27px;
+}
+.font-size28{
+    font-size: 28px;
+}
+.font-size29{
+    font-size: 29px;
+}
+.font-size30{
+    font-size: 30px;
+}
+.font-size31{
+    font-size: 31px;
+}
+.font-size32{
+    font-size: 32px;
+}
+.font-size33{
+    font-size: 33px;
+}
+.font-size34{
+    font-size: 34px;
+}
+.font-size35{
+    font-size: 35px;
+}
+.font-size36{
+    font-size: 36px;
+}
+.font-size37{
+    font-size: 37px;
+}
+.font-size38{
+    font-size: 38px;
+}
+.font-size39{
+    font-size: 39px;
+}
+.font-size40{
+    font-size: 40px;
+}
+
+.text-show1{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp: 1;
+	word-wrap: break-word;
+	word-break: break-all;
+}
